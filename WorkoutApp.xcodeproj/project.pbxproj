@@ -9,25 +9,37 @@
 /* Begin PBXBuildFile section */
 		2AD36E602A59223100662FF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E5F2A59223100662FF5 /* AppDelegate.swift */; };
 		2AD36E622A59223100662FF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E612A59223100662FF5 /* SceneDelegate.swift */; };
-		2AD36E642A59223100662FF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E632A59223100662FF5 /* ViewController.swift */; };
+		2AD36E642A59223100662FF5 /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E632A59223100662FF5 /* OverviewController.swift */; };
 		2AD36E692A59223200662FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD36E682A59223200662FF5 /* Assets.xcassets */; };
 		2AD36E6C2A59223200662FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD36E6A2A59223200662FF5 /* LaunchScreen.storyboard */; };
 		2AD36E762A59257400662FF5 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E752A59257400662FF5 /* TabBarController.swift */; };
 		2AD36E792A59268A00662FF5 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E782A59268A00662FF5 /* UIColor + ext.swift */; };
 		2AD36E7C2A59271500662FF5 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E7B2A59271500662FF5 /* Resources.swift */; };
+		2AD36E7F2A593AFD00662FF5 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E7E2A593AFD00662FF5 /* NavBarController.swift */; };
+		2AD36E842A5940FB00662FF5 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E832A5940FB00662FF5 /* BaseController.swift */; };
+		2AD36E862A595DA900662FF5 /* UIView + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E852A595DA900662FF5 /* UIView + ext.swift */; };
+		2AD36E8D2A595F4800662FF5 /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E8C2A595F4800662FF5 /* SessionController.swift */; };
+		2AD36E8F2A595F8400662FF5 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E8E2A595F8400662FF5 /* ProgressController.swift */; };
+		2AD36E912A595FB100662FF5 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E902A595FB100662FF5 /* SettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2AD36E5C2A59223100662FF5 /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD36E5F2A59223100662FF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AD36E612A59223100662FF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2AD36E632A59223100662FF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AD36E632A59223100662FF5 /* OverviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewController.swift; sourceTree = "<group>"; };
 		2AD36E682A59223200662FF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AD36E6B2A59223200662FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AD36E6D2A59223200662FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AD36E752A59257400662FF5 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		2AD36E782A59268A00662FF5 /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
 		2AD36E7B2A59271500662FF5 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		2AD36E7E2A593AFD00662FF5 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
+		2AD36E832A5940FB00662FF5 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		2AD36E852A595DA900662FF5 /* UIView + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + ext.swift"; sourceTree = "<group>"; };
+		2AD36E8C2A595F4800662FF5 /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
+		2AD36E8E2A595F8400662FF5 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
+		2AD36E902A595FB100662FF5 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +72,9 @@
 		2AD36E5E2A59223100662FF5 /* WorkoutApp */ = {
 			isa = PBXGroup;
 			children = (
-				2AD36E772A59267200662FF5 /* Helpers */,
 				2AD36E732A59235300662FF5 /* Application */,
-				2AD36E632A59223100662FF5 /* ViewController.swift */,
-				2AD36E752A59257400662FF5 /* TabBarController.swift */,
+				2AD36E802A5940BD00662FF5 /* Controllers */,
+				2AD36E772A59267200662FF5 /* Helpers */,
 				2AD36E742A59238F00662FF5 /* SupportingFiles */,
 			);
 			path = WorkoutApp;
@@ -81,9 +92,9 @@
 		2AD36E742A59238F00662FF5 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				2AD36E6D2A59223200662FF5 /* Info.plist */,
 				2AD36E682A59223200662FF5 /* Assets.xcassets */,
 				2AD36E6A2A59223200662FF5 /* LaunchScreen.storyboard */,
-				2AD36E6D2A59223200662FF5 /* Info.plist */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -91,8 +102,8 @@
 		2AD36E772A59267200662FF5 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				2AD36E7A2A59269700662FF5 /* Extensions */,
 				2AD36E7B2A59271500662FF5 /* Resources.swift */,
+				2AD36E7A2A59269700662FF5 /* Extensions */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -101,8 +112,63 @@
 			isa = PBXGroup;
 			children = (
 				2AD36E782A59268A00662FF5 /* UIColor + ext.swift */,
+				2AD36E852A595DA900662FF5 /* UIView + ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2AD36E802A5940BD00662FF5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2AD36E872A595EE600662FF5 /* Base */,
+				2AD36E882A595F0000662FF5 /* Overview */,
+				2AD36E8A2A595F1500662FF5 /* Progress */,
+				2AD36E892A595F0E00662FF5 /* Session */,
+				2AD36E8B2A595F1E00662FF5 /* Settings */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2AD36E872A595EE600662FF5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2AD36E832A5940FB00662FF5 /* BaseController.swift */,
+				2AD36E7E2A593AFD00662FF5 /* NavBarController.swift */,
+				2AD36E752A59257400662FF5 /* TabBarController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2AD36E882A595F0000662FF5 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				2AD36E632A59223100662FF5 /* OverviewController.swift */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
+		2AD36E892A595F0E00662FF5 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				2AD36E8C2A595F4800662FF5 /* SessionController.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		2AD36E8A2A595F1500662FF5 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				2AD36E8E2A595F8400662FF5 /* ProgressController.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		2AD36E8B2A595F1E00662FF5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2AD36E902A595FB100662FF5 /* SettingsController.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,11 +241,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AD36E642A59223100662FF5 /* ViewController.swift in Sources */,
+				2AD36E912A595FB100662FF5 /* SettingsController.swift in Sources */,
+				2AD36E642A59223100662FF5 /* OverviewController.swift in Sources */,
+				2AD36E862A595DA900662FF5 /* UIView + ext.swift in Sources */,
 				2AD36E762A59257400662FF5 /* TabBarController.swift in Sources */,
 				2AD36E602A59223100662FF5 /* AppDelegate.swift in Sources */,
+				2AD36E8D2A595F4800662FF5 /* SessionController.swift in Sources */,
+				2AD36E8F2A595F8400662FF5 /* ProgressController.swift in Sources */,
+				2AD36E7F2A593AFD00662FF5 /* NavBarController.swift in Sources */,
 				2AD36E7C2A59271500662FF5 /* Resources.swift in Sources */,
 				2AD36E792A59268A00662FF5 /* UIColor + ext.swift in Sources */,
+				2AD36E842A5940FB00662FF5 /* BaseController.swift in Sources */,
 				2AD36E622A59223100662FF5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
