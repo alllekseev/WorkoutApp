@@ -156,9 +156,9 @@
 		2AD36E7A2A59269700662FF5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				2AD29FB22A5C3BC40050C57F /* Date + ext.swift */,
 				2AD36E782A59268A00662FF5 /* UIColor + ext.swift */,
 				2AD36E852A595DA900662FF5 /* UIView + ext.swift */,
-				2AD29FB22A5C3BC40050C57F /* Date + ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -232,8 +232,8 @@
 		2AF52B952A5D3B83008D8045 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
-				2AAA95E22A5D3FC8003F292D /* TimerView.swift */,
 				2AAA95E42A5D3FFC003F292D /* ProgressView.swift */,
+				2AAA95E22A5D3FC8003F292D /* TimerView.swift */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
