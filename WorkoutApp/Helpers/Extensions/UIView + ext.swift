@@ -48,4 +48,10 @@ extension UIView {
         addSubview(view)
         view.translatesAutoresizingMaskIntoConstraints = false
     }
+    
+    func debugOutline(color: UIColor = .red, width: CGFloat = 1, radius: CGFloat = 0) {
+        layer.borderColor = color.cgColor
+        layer.borderWidth = width
+        layer.cornerRadius = radius
+    }
 }
