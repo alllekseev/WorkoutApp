@@ -21,19 +21,17 @@ class SessionController: WABaseController {
         }
         
         timerView.state = timerView.state == .isRunning ? .isStoped : .isRunning
-        setTitleForNavBarButton(
-            timerView.state == .isRunning
-            ? R.Strings.Session.navBarPause : R.Strings.Session.navBarStart,
-            at: .left
-        )
+        addNavBarButton(
+            at: .left,
+            with: timerView.state == .isRunning
+            ? R.Strings.Session.navBarPause : R.Strings.Session.navBarStart)
     }
     
     override func navBarRightButtonHandler() {
         timerView.stopTimer()
         timerView.state = .isStoped
         
-        setTitleForNavBarButton(R.Strings.Session.navBarFinish, at: .left)
-    }
+        addNavBarButton(at: .left, with: R.Strings.Session.navBarStart)    }
 }
 
 extension SessionController {
@@ -51,7 +49,7 @@ extension SessionController {
             timerView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 15),
             timerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 15),
             timerView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -15),
-            timerView.heightAnchor.constraint(equalToConstant: 500)
+            //            timerView.heightAnchor.constraint(equalToConstant: 500)
         ])
         
     }

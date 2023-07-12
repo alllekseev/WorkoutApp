@@ -21,8 +21,6 @@ class WABaseController: UIViewController {
         constraintViews()
         configureAppearance()
     }
-    
-    
 }
 
 
@@ -31,7 +29,6 @@ class WABaseController: UIViewController {
 @objc extension WABaseController {
     
     func setupViews() {}
-    
     func constraintViews() {}
     
     func configureAppearance() {
@@ -66,14 +63,14 @@ extension WABaseController {
         }
     }
     
-    func setTitleForNavBarButton(_ title: String, at position: NavBarPosition) {
-        switch position {
-        case .left:
-            (navigationItem.leftBarButtonItem?.customView as? UIButton)?.setTitle(title, for: .normal)
-        case .right:
-            (navigationItem.rightBarButtonItem?.customView as? UIButton)?.setTitle(title, for: .normal)
-        }
-        
-        view.layoutIfNeeded()
-    }
+//    func setTitleForNavBarButton(_ title: String, at position: NavBarPosition) {
+//        switch position {
+//        case .left:
+//            (navigationItem.leftBarButtonItem?.customView as? UIButton)?.setTitle(title, for: .normal)
+//        case .right:
+//            (navigationItem.rightBarButtonItem?.customView as? UIButton)?.setTitle(title, for: .normal)
+//        }
+//
+//        view.layoutIfNeeded()
+//    }
 }
