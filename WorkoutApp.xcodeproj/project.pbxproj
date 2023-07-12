@@ -25,7 +25,7 @@
 		2AD36E792A59268A00662FF5 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E782A59268A00662FF5 /* UIColor + ext.swift */; };
 		2AD36E7C2A59271500662FF5 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E7B2A59271500662FF5 /* Resources.swift */; };
 		2AD36E7F2A593AFD00662FF5 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E7E2A593AFD00662FF5 /* NavBarController.swift */; };
-		2AD36E842A5940FB00662FF5 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E832A5940FB00662FF5 /* BaseController.swift */; };
+		2AD36E842A5940FB00662FF5 /* WABaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E832A5940FB00662FF5 /* WABaseController.swift */; };
 		2AD36E862A595DA900662FF5 /* UIView + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E852A595DA900662FF5 /* UIView + ext.swift */; };
 		2AD36E8D2A595F4800662FF5 /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E8C2A595F4800662FF5 /* SessionController.swift */; };
 		2AD36E8F2A595F8400662FF5 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E8E2A595F8400662FF5 /* ProgressController.swift */; };
@@ -53,7 +53,7 @@
 		2AD36E782A59268A00662FF5 /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
 		2AD36E7B2A59271500662FF5 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		2AD36E7E2A593AFD00662FF5 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
-		2AD36E832A5940FB00662FF5 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		2AD36E832A5940FB00662FF5 /* WABaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseController.swift; sourceTree = "<group>"; };
 		2AD36E852A595DA900662FF5 /* UIView + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + ext.swift"; sourceTree = "<group>"; };
 		2AD36E8C2A595F4800662FF5 /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		2AD36E8E2A595F8400662FF5 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
@@ -71,6 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A83AF482A5EDA1A00DF97CF /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				2AD36E7E2A593AFD00662FF5 /* NavBarController.swift */,
+				2AD36E752A59257400662FF5 /* TabBarController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		2AC545A32A59F7A4008B0F19 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				2AD36E872A595EE600662FF5 /* Base */,
+				2A83AF482A5EDA1A00DF97CF /* Navigation */,
 				2AD36E882A595F0000662FF5 /* Overview */,
 				2AD36E8A2A595F1500662FF5 /* Progress */,
 				2AD36E892A595F0E00662FF5 /* Session */,
@@ -178,10 +188,8 @@
 		2AD36E872A595EE600662FF5 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				2AD36E832A5940FB00662FF5 /* BaseController.swift */,
-				2AD36E7E2A593AFD00662FF5 /* NavBarController.swift */,
+				2AD36E832A5940FB00662FF5 /* WABaseController.swift */,
 				2AC545A42A59F7D0008B0F19 /* WAButton.swift */,
-				2AD36E752A59257400662FF5 /* TabBarController.swift */,
 				2AD29FB42A5C45C30050C57F /* Views */,
 			);
 			path = Base;
@@ -327,7 +335,7 @@
 				2AD36E792A59268A00662FF5 /* UIColor + ext.swift in Sources */,
 				2AD29FAC2A5BE1E70050C57F /* BaseView.swift in Sources */,
 				2AD29FB12A5C38610050C57F /* WeekdayView.swift in Sources */,
-				2AD36E842A5940FB00662FF5 /* BaseController.swift in Sources */,
+				2AD36E842A5940FB00662FF5 /* WABaseController.swift in Sources */,
 				2AD36E622A59223100662FF5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
