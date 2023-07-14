@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A28884C2A6120A5005DD2E3 /* PercentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28884B2A6120A5005DD2E3 /* PercentView.swift */; };
 		2AAA95E32A5D3FC8003F292D /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA95E22A5D3FC8003F292D /* TimerView.swift */; };
 		2AAA95E52A5D3FFC003F292D /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA95E42A5D3FFC003F292D /* ProgressView.swift */; };
 		2AC545A52A59F7D0008B0F19 /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC545A42A59F7D0008B0F19 /* WAButton.swift */; };
 		2AD29FAA2A5BE18F0050C57F /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD29FA92A5BE18F0050C57F /* OverviewNavBar.swift */; };
-		2AD29FAC2A5BE1E70050C57F /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD29FAB2A5BE1E70050C57F /* BaseView.swift */; };
+		2AD29FAC2A5BE1E70050C57F /* WABaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD29FAB2A5BE1E70050C57F /* WABaseView.swift */; };
 		2AD29FAF2A5C36E20050C57F /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD29FAE2A5C36E20050C57F /* WeekView.swift */; };
 		2AD29FB12A5C38610050C57F /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD29FB02A5C38610050C57F /* WeekdayView.swift */; };
 		2AD29FB32A5C3BC40050C57F /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD29FB22A5C3BC40050C57F /* Date + ext.swift */; };
@@ -33,11 +34,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A28884B2A6120A5005DD2E3 /* PercentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentView.swift; sourceTree = "<group>"; };
 		2AAA95E22A5D3FC8003F292D /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		2AAA95E42A5D3FFC003F292D /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		2AC545A42A59F7D0008B0F19 /* WAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
 		2AD29FA92A5BE18F0050C57F /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
-		2AD29FAB2A5BE1E70050C57F /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		2AD29FAB2A5BE1E70050C57F /* WABaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseView.swift; sourceTree = "<group>"; };
 		2AD29FAE2A5C36E20050C57F /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		2AD29FB02A5C38610050C57F /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
 		2AD29FB22A5C3BC40050C57F /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
@@ -101,7 +103,7 @@
 		2AD29FB42A5C45C30050C57F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2AD29FAB2A5BE1E70050C57F /* BaseView.swift */,
+				2AD29FAB2A5BE1E70050C57F /* WABaseView.swift */,
 				2AD29FB52A5C45DF0050C57F /* WABaseInfoView.swift */,
 			);
 			path = Views;
@@ -242,6 +244,7 @@
 			children = (
 				2AAA95E42A5D3FFC003F292D /* ProgressView.swift */,
 				2AAA95E22A5D3FC8003F292D /* TimerView.swift */,
+				2A28884B2A6120A5005DD2E3 /* PercentView.swift */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -332,8 +335,9 @@
 				2AD36E8F2A595F8400662FF5 /* ProgressController.swift in Sources */,
 				2AD36E7F2A593AFD00662FF5 /* NavBarController.swift in Sources */,
 				2AD36E7C2A59271500662FF5 /* Resources.swift in Sources */,
+				2A28884C2A6120A5005DD2E3 /* PercentView.swift in Sources */,
 				2AD36E792A59268A00662FF5 /* UIColor + ext.swift in Sources */,
-				2AD29FAC2A5BE1E70050C57F /* BaseView.swift in Sources */,
+				2AD29FAC2A5BE1E70050C57F /* WABaseView.swift in Sources */,
 				2AD29FB12A5C38610050C57F /* WeekdayView.swift in Sources */,
 				2AD36E842A5940FB00662FF5 /* WABaseController.swift in Sources */,
 				2AD36E622A59223100662FF5 /* SceneDelegate.swift in Sources */,

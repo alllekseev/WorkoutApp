@@ -35,13 +35,9 @@ class WABaseController: UIViewController {
         view.backgroundColor = R.Colors.background
     }
     
-    func navBarLeftButtonHandler() {
-        print("NavBar Left Button tapped")
-    }
+    func navBarLeftButtonHandler() {}
     
-    func navBarRightButtonHandler() {
-        print("NavBar Right Button tapped")
-    }
+    func navBarRightButtonHandler() {}
 }
 
 
@@ -62,15 +58,4 @@ extension WABaseController {
             navigationItem.rightBarButtonItem = UIBarButtonItem(customView: button)
         }
     }
-    
-//    func setTitleForNavBarButton(_ title: String, at position: NavBarPosition) {
-//        switch position {
-//        case .left:
-//            (navigationItem.leftBarButtonItem?.customView as? UIButton)?.setTitle(title, for: .normal)
-//        case .right:
-//            (navigationItem.rightBarButtonItem?.customView as? UIButton)?.setTitle(title, for: .normal)
-//        }
-//
-//        view.layoutIfNeeded()
-//    }
 }
