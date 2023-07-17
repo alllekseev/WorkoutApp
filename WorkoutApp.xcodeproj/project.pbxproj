@@ -13,6 +13,7 @@
 		2A4FFD182A65797F00BB3009 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4FFD172A65797F00BB3009 /* StepsView.swift */; };
 		2A4FFD1B2A657A9900BB3009 /* WABarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4FFD1A2A657A9900BB3009 /* WABarsView.swift */; };
 		2A4FFD1E2A657AB500BB3009 /* WABarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4FFD1D2A657AB500BB3009 /* WABarView.swift */; };
+		2A4FFD222A658A4800BB3009 /* DailyPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4FFD212A658A4800BB3009 /* DailyPerformanceView.swift */; };
 		2AAA95E32A5D3FC8003F292D /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA95E22A5D3FC8003F292D /* TimerView.swift */; };
 		2AAA95E52A5D3FFC003F292D /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA95E42A5D3FFC003F292D /* ProgressView.swift */; };
 		2AC545A52A59F7D0008B0F19 /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC545A42A59F7D0008B0F19 /* WAButton.swift */; };
@@ -45,6 +46,7 @@
 		2A4FFD172A65797F00BB3009 /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
 		2A4FFD1A2A657A9900BB3009 /* WABarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarsView.swift; sourceTree = "<group>"; };
 		2A4FFD1D2A657AB500BB3009 /* WABarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarView.swift; sourceTree = "<group>"; };
+		2A4FFD212A658A4800BB3009 /* DailyPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPerformanceView.swift; sourceTree = "<group>"; };
 		2AAA95E22A5D3FC8003F292D /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		2AAA95E42A5D3FFC003F292D /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		2AC545A42A59F7D0008B0F19 /* WAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
@@ -123,6 +125,22 @@
 				2A4FFD1D2A657AB500BB3009 /* WABarView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2A4FFD1F2A658A2500BB3009 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A4FFD202A658A3400BB3009 /* Performance */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A4FFD202A658A3400BB3009 /* Performance */ = {
+			isa = PBXGroup;
+			children = (
+				2A4FFD212A658A4800BB3009 /* DailyPerformanceView.swift */,
+			);
+			path = Performance;
 			sourceTree = "<group>";
 		};
 		2A83AF482A5EDA1A00DF97CF /* Navigation */ = {
@@ -262,8 +280,8 @@
 		2AD36E892A595F0E00662FF5 /* Session */ = {
 			isa = PBXGroup;
 			children = (
-				2AF52B922A5D3AF4008D8045 /* Views */,
 				2AD36E8C2A595F4800662FF5 /* SessionController.swift */,
+				2AF52B922A5D3AF4008D8045 /* Views */,
 			);
 			path = Session;
 			sourceTree = "<group>";
@@ -271,6 +289,7 @@
 		2AD36E8A2A595F1500662FF5 /* Progress */ = {
 			isa = PBXGroup;
 			children = (
+				2A4FFD1F2A658A2500BB3009 /* Views */,
 				2AD36E8E2A595F8400662FF5 /* ProgressController.swift */,
 			);
 			path = Progress;
@@ -297,9 +316,9 @@
 		2AF52B952A5D3B83008D8045 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
+				2A28884B2A6120A5005DD2E3 /* PercentView.swift */,
 				2AAA95E42A5D3FFC003F292D /* ProgressView.swift */,
 				2AAA95E22A5D3FC8003F292D /* TimerView.swift */,
-				2A28884B2A6120A5005DD2E3 /* PercentView.swift */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -383,6 +402,7 @@
 				2AD36E862A595DA900662FF5 /* UIView + ext.swift in Sources */,
 				2A4FFD1E2A657AB500BB3009 /* WABarView.swift in Sources */,
 				2AD36E762A59257400662FF5 /* TabBarController.swift in Sources */,
+				2A4FFD222A658A4800BB3009 /* DailyPerformanceView.swift in Sources */,
 				2AD36E602A59223100662FF5 /* AppDelegate.swift in Sources */,
 				2AD36E8D2A595F4800662FF5 /* SessionController.swift in Sources */,
 				2AD29FB62A5C45DF0050C57F /* WABaseInfoView.swift in Sources */,

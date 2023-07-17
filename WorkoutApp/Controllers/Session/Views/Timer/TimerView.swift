@@ -54,7 +54,6 @@ final class TimerView: WABaseInfoView {
         view.axis = .vertical
         view.distribution = .fillProportionally
         view.spacing = 10
-        view.debugOutline()
         return view
     }()
     
