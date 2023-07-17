@@ -54,6 +54,7 @@ final class TimerView: WABaseInfoView {
         view.axis = .vertical
         view.distribution = .fillProportionally
         view.spacing = 10
+        view.debugOutline()
         return view
     }()
     
@@ -89,7 +90,7 @@ final class TimerView: WABaseInfoView {
         let percent = tmpCurrentValue / goalValueDivider
         let roundedPercent = Int(round(percent * 100))
         
-        elapsedTimeLabel.text = getDisplayedString(from: Int(tmpCurrentValue))
+        elapsedTimeValueLabel.text = getDisplayedString(from: Int(tmpCurrentValue))
         remainingTimeValueLabel.text = getDisplayedString(from: Int(duration) - Int(tmpCurrentValue))
         completedPercentView.configure(with: R.Strings.Session.completed, addValue: roundedPercent)
         remainingPercentView.configure(with: R.Strings.Session.remaining, addValue: 100 - roundedPercent)
