@@ -91,8 +91,8 @@ final class TimerView: WABaseInfoView {
         
         elapsedTimeLabel.text = getDisplayedString(from: Int(tmpCurrentValue))
         remainingTimeValueLabel.text = getDisplayedString(from: Int(duration) - Int(tmpCurrentValue))
-        completedPercentView.configure(with: "COMPLETED", addValue: roundedPercent)
-        remainingPercentView.configure(with: "REMAINING", addValue: 100 - roundedPercent)
+        completedPercentView.configure(with: R.Strings.Session.completed, addValue: roundedPercent)
+        remainingPercentView.configure(with: R.Strings.Session.remaining, addValue: 100 - roundedPercent)
         
         progressView.drawProgress(with: CGFloat(percent))
     }
