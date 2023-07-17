@@ -10,6 +10,9 @@
 		2A21E2612A61397000AD8BFE /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A21E2602A61397000AD8BFE /* StatsView.swift */; };
 		2A21E2642A6139B700AD8BFE /* StatsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A21E2632A6139B700AD8BFE /* StatsItemView.swift */; };
 		2A28884C2A6120A5005DD2E3 /* PercentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28884B2A6120A5005DD2E3 /* PercentView.swift */; };
+		2A4FFD182A65797F00BB3009 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4FFD172A65797F00BB3009 /* StepsView.swift */; };
+		2A4FFD1B2A657A9900BB3009 /* WABarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4FFD1A2A657A9900BB3009 /* WABarsView.swift */; };
+		2A4FFD1E2A657AB500BB3009 /* WABarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4FFD1D2A657AB500BB3009 /* WABarView.swift */; };
 		2AAA95E32A5D3FC8003F292D /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA95E22A5D3FC8003F292D /* TimerView.swift */; };
 		2AAA95E52A5D3FFC003F292D /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA95E42A5D3FFC003F292D /* ProgressView.swift */; };
 		2AC545A52A59F7D0008B0F19 /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC545A42A59F7D0008B0F19 /* WAButton.swift */; };
@@ -39,6 +42,9 @@
 		2A21E2602A61397000AD8BFE /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		2A21E2632A6139B700AD8BFE /* StatsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsItemView.swift; sourceTree = "<group>"; };
 		2A28884B2A6120A5005DD2E3 /* PercentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentView.swift; sourceTree = "<group>"; };
+		2A4FFD172A65797F00BB3009 /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
+		2A4FFD1A2A657A9900BB3009 /* WABarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarsView.swift; sourceTree = "<group>"; };
+		2A4FFD1D2A657AB500BB3009 /* WABarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarView.swift; sourceTree = "<group>"; };
 		2AAA95E22A5D3FC8003F292D /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		2AAA95E42A5D3FFC003F292D /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		2AC545A42A59F7D0008B0F19 /* WAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
@@ -89,6 +95,7 @@
 		2A21E25F2A61375900AD8BFE /* Steps */ = {
 			isa = PBXGroup;
 			children = (
+				2A4FFD172A65797F00BB3009 /* StepsView.swift */,
 			);
 			path = Steps;
 			sourceTree = "<group>";
@@ -97,6 +104,23 @@
 			isa = PBXGroup;
 			children = (
 				2A21E2632A6139B700AD8BFE /* StatsItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A4FFD192A657A8000BB3009 /* WABarsView */ = {
+			isa = PBXGroup;
+			children = (
+				2A4FFD1A2A657A9900BB3009 /* WABarsView.swift */,
+				2A4FFD1C2A657A9F00BB3009 /* Views */,
+			);
+			path = WABarsView;
+			sourceTree = "<group>";
+		};
+		2A4FFD1C2A657A9F00BB3009 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A4FFD1D2A657AB500BB3009 /* WABarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -131,8 +155,9 @@
 		2AD29FB42A5C45C30050C57F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2AD29FAB2A5BE1E70050C57F /* WABaseView.swift */,
 				2AD29FB52A5C45DF0050C57F /* WABaseInfoView.swift */,
+				2AD29FAB2A5BE1E70050C57F /* WABaseView.swift */,
+				2A4FFD192A657A8000BB3009 /* WABarsView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -356,12 +381,14 @@
 				2AD36E642A59223100662FF5 /* OverviewController.swift in Sources */,
 				2AD29FAA2A5BE18F0050C57F /* OverviewNavBar.swift in Sources */,
 				2AD36E862A595DA900662FF5 /* UIView + ext.swift in Sources */,
+				2A4FFD1E2A657AB500BB3009 /* WABarView.swift in Sources */,
 				2AD36E762A59257400662FF5 /* TabBarController.swift in Sources */,
 				2AD36E602A59223100662FF5 /* AppDelegate.swift in Sources */,
 				2AD36E8D2A595F4800662FF5 /* SessionController.swift in Sources */,
 				2AD29FB62A5C45DF0050C57F /* WABaseInfoView.swift in Sources */,
 				2AAA95E32A5D3FC8003F292D /* TimerView.swift in Sources */,
 				2AAA95E52A5D3FFC003F292D /* ProgressView.swift in Sources */,
+				2A4FFD182A65797F00BB3009 /* StepsView.swift in Sources */,
 				2AC545A52A59F7D0008B0F19 /* WAButton.swift in Sources */,
 				2AD36E8F2A595F8400662FF5 /* ProgressController.swift in Sources */,
 				2AD36E7F2A593AFD00662FF5 /* NavBarController.swift in Sources */,
@@ -370,6 +397,7 @@
 				2AD36E792A59268A00662FF5 /* UIColor + ext.swift in Sources */,
 				2AD29FAC2A5BE1E70050C57F /* WABaseView.swift in Sources */,
 				2AD29FB12A5C38610050C57F /* WeekdayView.swift in Sources */,
+				2A4FFD1B2A657A9900BB3009 /* WABarsView.swift in Sources */,
 				2A21E2612A61397000AD8BFE /* StatsView.swift in Sources */,
 				2AD36E842A5940FB00662FF5 /* WABaseController.swift in Sources */,
 				2AD36E622A59223100662FF5 /* SceneDelegate.swift in Sources */,
