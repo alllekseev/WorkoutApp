@@ -92,7 +92,7 @@ extension StatsItemView {
             imageView.widthAnchor.constraint(equalToConstant: 23),
             
             stackView.leadingAnchor.constraint(equalTo: imageView.trailingAnchor, constant: 15),
-            stackView.topAnchor.constraint(equalTo: topAnchor),
+            stackView.topAnchor.constraint(equalTo: topAnchor),  
             stackView.bottomAnchor.constraint(equalTo: bottomAnchor),
             stackView.trailingAnchor.constraint(equalTo: trailingAnchor)
         ])
