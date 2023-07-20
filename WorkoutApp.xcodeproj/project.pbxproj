@@ -41,6 +41,7 @@
 		2AD36E8D2A595F4800662FF5 /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E8C2A595F4800662FF5 /* SessionController.swift */; };
 		2AD36E8F2A595F8400662FF5 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E8E2A595F8400662FF5 /* ProgressController.swift */; };
 		2AD36E912A595FB100662FF5 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E902A595FB100662FF5 /* SettingsController.swift */; };
+		2AE2DE852A6924D900A78B6A /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2DE842A6924D900A78B6A /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		2AD36E8C2A595F4800662FF5 /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		2AD36E8E2A595F8400662FF5 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		2AD36E902A595FB100662FF5 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		2AE2DE842A6924D900A78B6A /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 			children = (
 				2A5FAEE62A67DC47001BD4B7 /* YAxisView.swift */,
 				2A5FAEE82A67DF21001BD4B7 /* XAxisView.swift */,
+				2AE2DE842A6924D900A78B6A /* ChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				2AD29FAC2A5BE1E70050C57F /* WABaseView.swift in Sources */,
 				2AD29FB12A5C38610050C57F /* WeekdayView.swift in Sources */,
 				2A4FFD1B2A657A9900BB3009 /* WABarsView.swift in Sources */,
+				2AE2DE852A6924D900A78B6A /* ChartView.swift in Sources */,
 				2A21E2612A61397000AD8BFE /* StatsView.swift in Sources */,
 				2AD36E842A5940FB00662FF5 /* WABaseController.swift in Sources */,
 				2AD36E622A59223100662FF5 /* SceneDelegate.swift in Sources */,
