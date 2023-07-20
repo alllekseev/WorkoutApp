@@ -13,10 +13,10 @@ final class WAChartsView: WABaseView {
     private let xAxisView = XAxisView()
     private let chartView = ChartView()
     
-    func configure(with data: [WAChartsView.Data]) {
+    func configure(with data: [WAChartsView.Data], topChartOffset: Int) {
         yAxisView.configure(with: data)
         xAxisView.configure(with: data)
-        chartView.configure(with: data)
+        chartView.configure(with: data, topCHartOffset: topChartOffset)
     }
 }
 
