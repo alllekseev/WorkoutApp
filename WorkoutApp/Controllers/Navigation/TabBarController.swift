@@ -57,7 +57,7 @@ final class TabBarController: UITabBarController {
         case .overview: return OverviewController()
         case .session: return SessionController()
         case .progress: return ProgressController()
-        case .settings: return SessionController()
+        case .settings: return SettingsController()
         }
     }
 }

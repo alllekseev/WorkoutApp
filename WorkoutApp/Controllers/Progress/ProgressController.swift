@@ -53,6 +53,12 @@ extension ProgressController {
     override func configureAppearance() {
         super.configureAppearance()
         
+        title = R.Strings.NavBar.progress
+        navigationController?.tabBarItem.title = R.Strings.TabBar.title(for: .progress)
+        
+        addNavBarButton(at: .left, with: R.Strings.Progress.navBarLeft)
+        addNavBarButton(at: .right, with: R.Strings.Progress.navBarRight)
+        
         dailyPerformanceView.configure(with: [
             .init(value: "1", heightMultiplier: 0.2, title: "MON"),
             .init(value: "2", heightMultiplier: 0.4, title: "TEU"),
