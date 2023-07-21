@@ -42,6 +42,8 @@
 		2AD36E8F2A595F8400662FF5 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E8E2A595F8400662FF5 /* ProgressController.swift */; };
 		2AD36E912A595FB100662FF5 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD36E902A595FB100662FF5 /* SettingsController.swift */; };
 		2AE2DE852A6924D900A78B6A /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2DE842A6924D900A78B6A /* ChartView.swift */; };
+		2AEAF0F62A6A6BE200081C10 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEAF0F52A6A6BE200081C10 /* SectionHeaderView.swift */; };
+		2AEAF0F82A6A728100081C10 /* TrainingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEAF0F72A6A728100081C10 /* TrainingCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +84,8 @@
 		2AD36E8E2A595F8400662FF5 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		2AD36E902A595FB100662FF5 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		2AE2DE842A6924D900A78B6A /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		2AEAF0F52A6A6BE200081C10 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		2AEAF0F72A6A728100081C10 /* TrainingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,8 +197,8 @@
 		2AC545A32A59F7A4008B0F19 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2AD29FAD2A5C36CE0050C57F /* WeekView */,
-				2AD29FA92A5BE18F0050C57F /* OverviewNavBar.swift */,
+				2AEAF0F32A6A6BBD00081C10 /* CollectionView */,
+				2AEAF0F22A6A6B9000081C10 /* NavBar */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,8 +206,8 @@
 		2AD29FAD2A5C36CE0050C57F /* WeekView */ = {
 			isa = PBXGroup;
 			children = (
-				2AD29FAE2A5C36E20050C57F /* WeekView.swift */,
 				2AD29FB02A5C38610050C57F /* WeekdayView.swift */,
+				2AD29FAE2A5C36E20050C57F /* WeekView.swift */,
 			);
 			path = WeekView;
 			sourceTree = "<group>";
@@ -342,6 +346,32 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
+		2AEAF0F22A6A6B9000081C10 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				2AD29FA92A5BE18F0050C57F /* OverviewNavBar.swift */,
+				2AD29FAD2A5C36CE0050C57F /* WeekView */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		2AEAF0F32A6A6BBD00081C10 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				2AEAF0F42A6A6BD200081C10 /* Views */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		2AEAF0F42A6A6BD200081C10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AEAF0F52A6A6BE200081C10 /* SectionHeaderView.swift */,
+				2AEAF0F72A6A728100081C10 /* TrainingCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2AF52B922A5D3AF4008D8045 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -438,6 +468,7 @@
 				2A21E2642A6139B700AD8BFE /* StatsItemView.swift in Sources */,
 				2AD36E642A59223100662FF5 /* OverviewController.swift in Sources */,
 				2A5FAEE12A67D7A1001BD4B7 /* MonthlyPerformanceView.swift in Sources */,
+				2AEAF0F82A6A728100081C10 /* TrainingCellView.swift in Sources */,
 				2AD29FAA2A5BE18F0050C57F /* OverviewNavBar.swift in Sources */,
 				2AD36E862A595DA900662FF5 /* UIView + ext.swift in Sources */,
 				2A4FFD1E2A657AB500BB3009 /* WABarView.swift in Sources */,
@@ -459,6 +490,7 @@
 				2A28884C2A6120A5005DD2E3 /* PercentView.swift in Sources */,
 				2AD36E792A59268A00662FF5 /* UIColor + ext.swift in Sources */,
 				2AD29FAC2A5BE1E70050C57F /* WABaseView.swift in Sources */,
+				2AEAF0F62A6A6BE200081C10 /* SectionHeaderView.swift in Sources */,
 				2AD29FB12A5C38610050C57F /* WeekdayView.swift in Sources */,
 				2A4FFD1B2A657A9900BB3009 /* WABarsView.swift in Sources */,
 				2AE2DE852A6924D900A78B6A /* ChartView.swift in Sources */,
