@@ -18,6 +18,11 @@
 		2A5FAEE52A67D9FD001BD4B7 /* WAChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FAEE42A67D9FD001BD4B7 /* WAChartsView.swift */; };
 		2A5FAEE72A67DC47001BD4B7 /* YAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FAEE62A67DC47001BD4B7 /* YAxisView.swift */; };
 		2A5FAEE92A67DF21001BD4B7 /* XAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FAEE82A67DF21001BD4B7 /* XAxisView.swift */; };
+		2A6B4B952B305EAD00A70985 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2A6B4B942B305EAD00A70985 /* .gitignore */; };
+		2A6B4B9A2B305F1100A70985 /* SessionScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6B4B972B305F1100A70985 /* SessionScreen.png */; };
+		2A6B4B9B2B305F1100A70985 /* OverviewScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6B4B982B305F1100A70985 /* OverviewScreen.png */; };
+		2A6B4B9C2B305F1100A70985 /* ProgressScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6B4B992B305F1100A70985 /* ProgressScreen.png */; };
+		2A76B7762B1EF74A00ED33FC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2A76B7752B1EF6F100ED33FC /* README.md */; };
 		2AAA95E32A5D3FC8003F292D /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA95E22A5D3FC8003F292D /* TimerView.swift */; };
 		2AAA95E52A5D3FFC003F292D /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA95E42A5D3FFC003F292D /* ProgressView.swift */; };
 		2AC545A52A59F7D0008B0F19 /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC545A42A59F7D0008B0F19 /* WAButton.swift */; };
@@ -58,6 +63,11 @@
 		2A5FAEE42A67D9FD001BD4B7 /* WAChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAChartsView.swift; sourceTree = "<group>"; };
 		2A5FAEE62A67DC47001BD4B7 /* YAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAxisView.swift; sourceTree = "<group>"; };
 		2A5FAEE82A67DF21001BD4B7 /* XAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XAxisView.swift; sourceTree = "<group>"; };
+		2A6B4B942B305EAD00A70985 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2A6B4B972B305F1100A70985 /* SessionScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SessionScreen.png; sourceTree = "<group>"; };
+		2A6B4B982B305F1100A70985 /* OverviewScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OverviewScreen.png; sourceTree = "<group>"; };
+		2A6B4B992B305F1100A70985 /* ProgressScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProgressScreen.png; sourceTree = "<group>"; };
+		2A76B7752B1EF6F100ED33FC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2AAA95E22A5D3FC8003F292D /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		2AAA95E42A5D3FFC003F292D /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		2AC545A42A59F7D0008B0F19 /* WAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
@@ -185,6 +195,16 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		2A6B4B962B305EBC00A70985 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2A6B4B982B305F1100A70985 /* OverviewScreen.png */,
+				2A6B4B972B305F1100A70985 /* SessionScreen.png */,
+				2A6B4B992B305F1100A70985 /* ProgressScreen.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		2A83AF482A5EDA1A00DF97CF /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +246,9 @@
 		2AD36E532A59223100662FF5 = {
 			isa = PBXGroup;
 			children = (
+				2A6B4B962B305EBC00A70985 /* Images */,
+				2A6B4B942B305EAD00A70985 /* .gitignore */,
+				2A76B7752B1EF6F100ED33FC /* README.md */,
 				2AD36E5E2A59223100662FF5 /* WorkoutApp */,
 				2AD36E5D2A59223100662FF5 /* Products */,
 			);
@@ -450,7 +473,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A6B4B952B305EAD00A70985 /* .gitignore in Resources */,
+				2A76B7762B1EF74A00ED33FC /* README.md in Resources */,
+				2A6B4B9A2B305F1100A70985 /* SessionScreen.png in Resources */,
 				2AD36E6C2A59223200662FF5 /* LaunchScreen.storyboard in Resources */,
+				2A6B4B9C2B305F1100A70985 /* ProgressScreen.png in Resources */,
+				2A6B4B9B2B305F1100A70985 /* OverviewScreen.png in Resources */,
 				2AD36E692A59223200662FF5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
